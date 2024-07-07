@@ -1,0 +1,579 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.big-body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.body {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3rem;
+}
+
+.btn {
+    padding: 1.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    border: 0;
+    font-size: 20px;
+}
+
+.img {
+    /* display: block;
+    max-width: 100%; */
+}
+
+.h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #172339;
+    position: absolute;
+}
+
+.h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #172339;
+}
+
+.p {
+    font-size: 20px;
+    color: grey;
+}
+
+/* header */
+.header {
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.header img {
+    margin-top: 1rem;
+}
+
+.header button {
+    background-color: transparent;
+    border: 0.1rem solid #172339;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.header button:hover {
+    background-color: #172339;
+    cursor: pointer;
+    color: white;
+}
+
+/* first page */
+.img-hero {
+    position: relative;
+    left: 19rem;
+}
+
+.page1 {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+
+.style {
+    font-weight: 400;
+}
+
+.hero-text {
+    padding-top: 1rem;
+}
+
+.hero-text p {
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+    font-weight: 400;
+    line-height: 2;
+    padding-right: 20%;
+}
+
+.hero-text button {
+    color: white;
+    background-color: #172339;
+}
+
+.hero-text button:hover {
+    background: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
+    cursor: pointer;
+}
+
+.stats {
+    padding-left: 40%;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.pstat {
+    font-size: 16px;
+    color: grey;
+    letter-spacing: 2.5px;
+}
+
+/* second page */
+.card {
+    background-color: #172339;
+    border-radius: 1rem;
+    display: flex;
+    position: relative;
+    bottom: -18rem;
+    z-index: 2;
+}
+
+.blur {
+    position: relative;
+    left: -1rem;
+    bottom: -3rem;
+}
+
+.ark {
+    position: absolute;
+    left: 28rem;
+    top: 10rem;
+}
+
+.card picture img {
+    position: absolute;
+    left: 4rem;
+    bottom: 0;
+}
+
+.page2-text {
+    width: 50%;
+    padding-right: 8%;
+    margin-top: 5rem;
+}
+
+.page2-text h2 {
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 56px;
+
+}
+
+.page2-text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.pt {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 2rem;
+}
+
+.ps {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 2.5px;
+}
+
+.footer {
+    background-color: #f3ede7;
+    /* padding-left: 13%;
+    padding-right: 13%; */
+    min-height: 30rem;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.footer-elements {
+    position: absolute;
+    width: 100%;
+    bottom: 7rem;
+
+}
+
+.copyright {
+    font-size: 15px;
+    letter-spacing: 0.08px;
+    font-weight: 400;
+    position: absolute;
+    line-height: 32px;
+    right: 45%;
+    left: 45%;
+    color: grey;
+}
+
+.logo {
+    position: absolute;
+    left: 13%;
+}
+
+.socials {
+    display: inline-block;
+    position: absolute;
+    right: 13%;
+}
+
+.facebook,
+.instagram,
+.twitter {
+    margin: 0 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 450px) {
+/* -------------------------------------------------------------------------------------------------------------- */
+.btn {
+    padding: 0.8rem;
+    font-size: 14px;
+}
+
+.h1 {
+    font-size: 38px;
+    display: block;
+}
+/* header */
+.header img {
+    margin-top: 1rem;
+}
+
+
+/* first page */
+.img-hero {
+    position: relative;
+    left: 15rem;
+}
+
+.page1 {
+    display: none;
+   
+}
+.page1 picture {
+    display: block;
+    max-width: 100%;
+}
+
+.style {
+    font-weight: 400;
+}
+
+.hero-text {
+    padding-top: 3rem;
+}
+.hero-text img{
+    width: 220px;
+}
+.hero-text p {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 2;
+    padding-right: 5%;
+}
+
+.hero-text button {
+    color: white;
+    background-color: #172339;
+}
+
+.hero-text button:hover {
+    background: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
+    cursor: pointer;
+}
+.stats {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding-left: 0;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* edit below here */
+    justify-content: space-between;
+}
+
+.stats div h2{
+    text-align: center;
+}
+.pstat {
+    font-size: 16px;
+    color: grey;    
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+/* second page */
+.card {
+    background-color: #172339;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -18rem;
+    z-index: 2;
+    margin-top: 4rem;
+}
+.images-card{
+    position: relative;
+    width: 100%;
+}
+.pic1 img {
+    position: absolute;
+    left: 5rem;
+    top: -7rem;
+    overflow-y: hidden;
+}
+
+.card picture img {
+    position: absolute;
+    left: 10rem;
+    top: -17rem;
+}
+
+.ark {
+    position: absolute;
+    left: 18rem;
+    top: 22rem;
+}
+
+.page2-text {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 27rem;
+    margin-bottom: 5rem;
+}
+
+.page2-text h2 {
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.page2-text p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.pt {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.ps {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f3ede7;
+    /* padding-left: 13%;
+    padding-right: 13%; */
+    min-height: 30rem;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.footer-elements {
+    position: absolute;
+    width: 100%;
+    bottom: 7rem;
+
+}
+
+.copyright {
+    font-size: 15px;
+    letter-spacing: 0.08px;
+    font-weight: 400;
+    position: absolute;
+    line-height: 32px;
+    right: 40%;
+    left: 40%;
+    color: grey;
+}
+
+.logo {
+    position: absolute;
+    left: 6%;
+}
+
+.socials {
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+}
+
+.facebook,
+.instagram,
+.twitter {
+    margin: 0 10px;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+}
+
+/* tablet */
+@media only screen and (max-width: 900px) {
+/* ------------------------------------------------------------------------------------------------------------- */
+.body {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3rem;
+}
+
+.btn {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.h1 {
+    font-size: 56px;
+}
+
+.h2 {
+    font-size: 48px;
+}
+
+.p {
+    font-size: 16px;
+}
+/* header */
+
+/* first page */
+.img-hero {
+    position: relative;
+    left: 15rem;
+}
+
+.page1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.hero-text {
+    padding-top: 3rem;
+}
+.hero-text img{
+    width: 220px;
+}
+.hero-text p {
+    margin-top: 10rem;
+    padding-right: 5%;
+}
+
+.stats {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.stats div h2{
+    text-align: center;
+}
+.pstat {
+    text-align: center;
+}
+
+/* second page */
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -18rem;
+    z-index: 2;
+    margin-top: 4rem;
+}
+.images-card{
+    position: relative;
+    width: 100%;
+}
+.pic1 img {
+    position: absolute;
+    left: 5rem;
+    top: -7rem;
+    overflow-y: hidden;
+}
+
+.card picture img {
+    position: absolute;
+    left: 10rem;
+    top: -17rem;
+}
+
+.ark {
+    position: absolute;
+    left: 18rem;
+    top: 22rem;
+}
+
+.page2-text {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 27rem;
+    margin-bottom: 5rem;
+}
+
+.page2-text h2 {
+    text-align: center;
+}
+
+.page2-text p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.pt {
+    text-align: center;
+}
+
+.ps {
+    text-align: center;
+}
+/* footer */
+.copyright {
+    right: 40%;
+    left: 40%;
+}
+
+.logo {
+    left: 6%;
+}
+
+.socials {
+    right: 6%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+}
