@@ -244,10 +244,16 @@
         overflow-y: hidden;
         width: 250px;
     }
+    .hero-text p {
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        padding-right: 0;
+    }
+
 
     .card picture img {
         position: absolute;
-        left: 4rem !important;
+        left: 3rem !important;
         top: -11rem;
     }
 
@@ -260,15 +266,15 @@
     /* footer */
     .copyright {
         position: absolute;
-        right: 29% !important;
-        left: 34% !important;
+        right: 20% !important;
+        left: 20% !important;
         top: -2rem;
     }
     .socials {
         display: inline-block;
         position: absolute;
-        right: 27% !important;
-        left: 33% !important;
+        right: 25% !important;
+        left: 25% !important;
         bottom: -4rem;
     }
 }
@@ -299,7 +305,7 @@
     }
 }
 
-@media only screen and (min-width:321) and (max-width: 375px){
+@media only screen and (max-width: 375px){
     .pic1 img {
         position: absolute;
         left: 4rem !important;
@@ -385,7 +391,7 @@
     /* first page */
     .img-hero {
         position: relative;
-        left: 10rem;
+        left: 9rem;
         width: 160px;
     }
 
@@ -511,8 +517,8 @@
         font-weight: 400;
         position: absolute;
         line-height: 32px;
-        right: 37%;
-        left: 37%;
+        right: 32%;
+        left: 36%;
         top: -2rem;
         color: grey;
     }
@@ -527,8 +533,8 @@
     .socials {
         display: inline-block;
         position: absolute;
-        right: 36%;
-        left: 36%;
+        right: 26%;
+        left: 34%;
         bottom: -4rem;
     }
 
@@ -687,20 +693,20 @@
         font-weight: 400;
         position: absolute;
         line-height: 32px;
-        right: 45%;
-        left: 45%;
+        right: 42%;
+        left: 42%;
         color: grey;
     }
 
     .logo {
         position: absolute;
-        left: 13%;
+        left: 6%;
     }
 
     .socials {
         display: inline-block;
         position: absolute;
-        right: 13%;
+        right: 6%;
     }
 
     .facebook,
