@@ -232,121 +232,28 @@
 }
 
 /* mobile */
-@media (max-width: 320px) {
-    .img-hero {
-        width: 150px !important;
+@media only screen and (max-width: 360px){
+    
+    .h1{
+        font-size: 35px !important;
     }
-
-    .pic1 img {
-        position: absolute;
-        left: 4rem !important;
-        top: -3rem;
-        overflow-y: hidden;
-        width: 250px;
-    }
-    .hero-text p {
-        margin-top: 8rem;
-        margin-bottom: 2rem;
-        padding-right: 0;
-    }
-
-
-    .card picture img {
-        position: absolute;
-        left: 3rem !important;
-        top: -11rem;
-    }
-
-    .ark {
-        position: absolute;
-        left: 9rem !important;
-        top: 17rem;
+    .img-hero{
+        left: 8.5rem !important;
     }
 
     /* footer */
     .copyright {
         position: absolute;
-        right: 20% !important;
-        left: 20% !important;
-        top: -2rem;
-    }
-    .socials {
-        display: inline-block;
-        position: absolute;
-        right: 25% !important;
-        left: 25% !important;
-        bottom: -4rem;
-    }
-}
-@media (max-width: 360px) {
-    .hero-text p {
-        margin-top: 8rem !important;
-        margin-bottom: 2rem;
-        padding-right: 0;
-    }
-    .pic1 img {
-        position: absolute;
-        left: 4rem !important;
-        top: -3rem;
-        overflow-y: hidden;
-        width: 250px;
-    }
-
-    .card picture img {
-        position: absolute;
-        left: 4rem !important;
-        top: -11rem;
-    }
-
-    .ark {
-        position: absolute;
-        left: 9rem !important;
-        top: 17rem;
-    }
-}
-
-@media only screen and (max-width: 375px){
-    .pic1 img {
-        position: absolute;
-        left: 4rem !important;
-        top: -3rem;
-        overflow-y: hidden;
-        width: 250px;
-    }
-
-    .card picture img {
-        position: absolute;
-        left: 4rem !important;
-        top: -11rem;
-    }
-
-    .ark {
-        position: absolute;
-        left: 9rem !important;
-        top: 17rem;
-    }
-
-    /* footer */
-    .copyright {
-        position: absolute;
-        right: 32% !important;
+        right: 28% !important;
         left: 33% !important;
         top: -2rem;
-    }
-
-    .logo {
-        position: absolute;
-        left: 38% !important;
-        right: 42% !important;
-        top: -7rem;
     }
 
     .socials {
         display: inline-block;
         position: absolute;
-        right: 27% !important;
         left: 33% !important;
-        bottom: -4rem;
+        bottom: -4rem !important;
     }
 }
 
@@ -363,8 +270,6 @@
         padding: 1rem;
         font-size: 14px;
     }
-
-
     .h1 {
         font-size: 38px;
         position: absolute;
@@ -391,7 +296,7 @@
     /* first page */
     .img-hero {
         position: relative;
-        left: 9rem;
+        left: 10rem;
         width: 160px;
     }
 
@@ -402,11 +307,11 @@
     }
 
     .page1 picture {
-        width: 100%;
+        max-width: 100%;
     }
 
     .hero-text p {
-        margin-top: 6rem;
+        margin-top: 7rem;
         margin-bottom: 2rem;
         padding-right: 0;
     }
@@ -448,21 +353,25 @@
 
     .pic1 img {
         position: absolute;
-        left: 10rem;
-        top: -3rem;
+        left: 50%;
+        top: 2rem;
+        transform: translate(-50%);
         overflow-y: hidden;
         width: 250px;
     }
 
     .card picture img {
         position: absolute;
-        left: 10rem;
+        left: 50%;
+        transform: translate(-50%);
+
         top: -11rem;
     }
 
     .ark {
         position: absolute;
-        left: 14rem;
+        left: 50%;
+        transform: translate(-50%);
         top: 17rem;
     }
 
@@ -517,8 +426,8 @@
         font-weight: 400;
         position: absolute;
         line-height: 32px;
-        right: 32%;
-        left: 36%;
+        right: 30%;
+        left: 35%;
         top: -2rem;
         color: grey;
     }
@@ -533,8 +442,7 @@
     .socials {
         display: inline-block;
         position: absolute;
-        right: 26%;
-        left: 34%;
+        left: 35%;
         bottom: -4rem;
     }
 
@@ -693,8 +601,8 @@
         font-weight: 400;
         position: absolute;
         line-height: 32px;
-        right: 42%;
-        left: 42%;
+        right: 40%;
+        left: 40%;
         color: grey;
     }
 
